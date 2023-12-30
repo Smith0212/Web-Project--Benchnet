@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster:400,800');
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,800');
+
+
+.frame-back{
+	height: 1080px;
+	width: 1920px;
+	background-color: white;
+	position: fixed;
+	overflow: hidden;
+	top: 0%;
+	left: 0%;
+}
+.frame-main{
+	position: absolute;
+	width: 1501px;
+	height: 2000px;
+	left: 419px;
+	top: 122px;
+	overflow: scroll;
+	background: #FAF8F4;
+	background-repeat: repeat;
+	border-radius: 20px 0px 0px 0px;	
+}
+.logo{
+	position: fixed;	
+	width: 312px;
+	height: 72px;
+	left: 50px;
+	top: 30px;	
+
+}
+.profile{
+	position: fixed;
+	width: 172px;
+	height: 172px;
+	left: 125px;
+	top: 205px;
+}
+.name{
+	position: fixed;
+	width: 227px;
+	height: 42px;
+	left: 90px;
+	top: 360px;
+	text-align: center;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 1000;
+	font-size: 36px;
+	line-height: 42px;
+
+	color: #000000;
+}
+.title{
+	position: fixed;
+	width: 250px;
+	height: 50px;
+	left: 1000px;
+	top: 0px;
+	white-space: nowrap;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 1000;
+	font-size: 40px;
+	line-height: 56px;
+
+	color: #000000;
+}
+.active_btn{
+	position: fixed;
+	width: 312px;
+	height: 69px;
+	left: 50px;
+	top: 531px;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	line-height: 28px;
+	color: #FFFFFF;
+	border-color: transparent;
+	background: #F08861;
+	border-radius: 12px;
+
+}
+.active_icon{
+	position: fixed;
+	left: 122px;
+	top: 554px;
+}
+label[for=back_btn]{
+	position: fixed;
+	width: 110px;
+	height: 28px;
+	left: 151px;
+	top: 139px;
+	background-image: url(./faculty-dashboard/student/add_student/go_back.png);
+	background-repeat: no-repeat;
+	display: block;
+}
+.header{
+	position: absolute;
+	width: 1281px;
+	height: 75px;
+	left: 110px;
+	top: 150px;
+	background: #F08861;
+	border-radius: 10px 10px 0px 0px;
+}
+.sno{
+	position: absolute;
+	width: 222px;
+	height: 30px;
+	left: 103px;
+	top: 5px;
+
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 26px;
+	line-height: 30px;
+
+	color: #FFFFFF;	
+}
+.eno{
+	position: absolute;
+	width: 222px;
+	height: 30px;
+	left: 229px;
+	top: 5px;
+
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 26px;
+	line-height: 30px;
+
+	color: #FFFFFF;
+}
+.sname{
+	position: absolute;
+	width: 222px;
+	height: 30px;
+	left: 511px;
+	top: 5px;
+
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 26px;
+	line-height: 30px;
+
+	color: #FFFFFF;
+}
+.dob{
+	position: absolute;
+	width: 222px;
+	height: 30px;
+	left: 754px;
+	top: 5px;
+
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 26px;
+	line-height: 30px;
+
+	color: #FFFFFF;
+}
+.mno{
+	position: absolute;
+	width: 222px;
+	height: 30px;
+	left: 969px;
+	top: 5px;
+
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 26px;
+	line-height: 30px;
+
+	color: #FFFFFF;
+}
+table {
+	border: none;
+}
+td{
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 24px;
+	line-height: 28px;
+
+	color: #475361;
+}
+tr{
+	position: absolute;
+	width: 1281px;
+	height: 109px;
+	left: 110px;
+	box-shadow: 8px 12px 40px rgba(0, 0, 0, 0.25);
+	background: #FFFFFF;
+	border-radius: 10px;
+}
+.col_sno{
+	position: absolute;
+	padding-top: 40px;
+	left: 123px;
+}
+.col_one{
+	position: absolute;
+	padding-top: 40px;
+	left: 239px;
+}
+.col_two{
+	position: absolute;
+	padding-top: 40px;
+	left: 511px;
+}
+.col_three{
+	position: absolute;
+	padding-top: 40px;
+	left: 764px;
+}
+.col_four{
+	position: absolute;
+	padding-top: 40px;
+	left: 979px;
+}
+@keyframes fadeIn {
+  0% {opacity:0;}
+  50% {opacity:0;}
+  100% {opacity:1;}
+}
+

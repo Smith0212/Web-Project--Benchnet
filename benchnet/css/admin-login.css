@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster:400,800');
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,800');
+
+.svg{
+position: fixed;
+width: 850px;
+height: 620px;
+left: 225px;
+top: 306px;
+}
+.text-img{
+position: fixed;
+left: 25.89%;
+right: 55.52%;
+top: 10.74%;
+bottom: 78.7%;
+}
+.frame-right{
+position: fixed;
+left: 73%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: #FFFFFF;
+}
+.frame-left{
+position: fixed;
+left: 0%;
+right: 28%;
+top: 0%;
+bottom: 0%;
+
+background: #FAEFCD;
+}
+.box_1{
+	position: fixed;
+	width: 388px;
+	height: 56px;
+	left: 76.5%;
+	top: 410px;
+
+	background: #FFFFFF;
+	border: none;
+	border-bottom: 5px solid #C4C4C4;
+	outline: none;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 21px;
+	color: #ACACAC;
+}
+.box_1:focus{
+	border: none;
+	border-bottom: 5px solid #F08861;
+}
+.box_2{
+	position: fixed;
+	width: 388px;
+	height: 56px;
+	left: 76.5%;
+	top: 525px;
+
+	background: #FFFFFF;
+	border: none;
+	border-bottom: 5px solid #C4C4C4;
+	outline: none;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 21px;
+	color: #ACACAC;
+}
+.box_2:focus{
+	border: none;
+	border-bottom: 5px solid #F08861;
+}
+.button{
+	position: fixed;
+	width: 388px;
+	height: 56px;
+	left: 76.5%;
+	top: 640px;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: thin;
+	font-size: 24px;
+	line-height: 28px;
+
+	color: #FFFFFF;
+
+	background: #EC602C;
+	border: none;
+	box-shadow: 0px 4px 4px rgba(236, 96, 44, 0.35);
+	
+}
+
+.img1{
+	position: fixed;
+	width: 314px;
+	height: 72px;
+	left: 78.5%;
+	top: 147px;
+
+}
+.asset_1{
+	position: fixed;
+	width: 150px;
+	height: 3px;
+	right: 0px;
+	top: 306px;
+
+	background: #C4C4C4;
+}
+.asset_2{
+	position: fixed;
+	width: 180px;
+	height: 3px;
+	right: 358px;
+	top: 306px;
+
+	background: #C4C4C4;
+}
+h1{
+	position: fixed;
+	width: 169px;
+	height: 90px;
+	left: 82.2%;
+	top: 205px;
+
+	font-family: Lobster;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 72px;
+	line-height: 90px;
+
+	color: #7B7A74;
+}
+.error{
+	position: fixed;
+	width: 388px;
+	height: 56px;
+	left: 78.5%;
+	top: 720px;
+
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 28px;
+	line-height: 42px;
+	white-space: nowrap;
+	color: #E62B2B;
+}
+.feild_etime{
+	position: absolute;
+	width: 350px;
+	height: 50px;
+	left: 100px;
+	top: 350px;
+
+	background: #FFFFFF;
+	border: none;
+	border-bottom: 5px solid #C4C4C4;
+	outline: none;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 21px;
+	color: #ACACAC;
+}

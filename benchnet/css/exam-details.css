@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster:400,800');
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,800');
+
+.frame-back{
+	height: 1080px;
+	width: 1920px;
+	background-color: white;
+	position: fixed;
+	top: 0%;
+	left: 0%;
+	overflow: hidden;
+}
+.frame-main{
+	position: absolute;
+	width: 1920px;
+	height: 955px;
+	left: 0px;
+	top: 122px;
+	overflow: auto;
+	background: #FAFAFA;	
+}
+.logo{
+	position: absolute;	
+	width: 312px;
+	height: 72px;
+	left: 50px;
+	top: 30px;	
+}
+.title{
+	position: fixed;
+	width: 250px;
+	height: 50px;
+	left: 862px;
+	top: 5px;
+	white-space: nowrap;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 1000;
+	font-size: 40px;
+	line-height: 56px;
+
+	color: #000000;
+}
+.logout{
+	position: absolute;
+	width: 246px;
+	height: 61px;
+	left: 1608px;
+	top: 32px;
+	color: #C30B0B;
+	background: transparent;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 21px;
+	border: 2px solid #C30B0B;
+	box-sizing: border-box;
+}
+.header{
+	position: absolute;
+	width: 1012px;
+	height: 75px;
+	left: 406px;
+	top: 150px;
+	background: #F08861;
+	border-radius: 10px 10px 0px 0px;
+}
+table {
+	border: none;
+}
+td{
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 24px;
+	line-height: 28px;
+
+	color: #475361;
+}
+tr{
+	position: absolute;
+	width: 1012px;
+	height: 109px;
+	left: 406px;
+	box-shadow: 8px 12px 40px rgba(0, 0, 0, 0.25);
+	background: #FFFFFF;
+	border-radius: 10px;
+}
+.col_sno{
+	position: absolute;
+	padding-top: 40px;
+	left: 64px;
+}
+.col_one{
+	position: absolute;
+	padding-top: 40px;
+	left: 183px;
+}
+.col_two{
+	position: absolute;
+	padding-top: 40px;
+	left: 375px;
+}
+.col_three{
+	position: absolute;
+	padding-top: 40px;
+	left: 556px;
+}
+.col_four{
+	position: absolute;http://localhost/phpmyadmin/tbl_triggers.php?db=ehsas_db&table=student_list
+	padding-top: 40px;
+	left: 804px;
+}
+.sno{
+	position: absolute;
+	width: 97.76px;
+	height: 30px;
+	left: 44px;
+	top: 5px;
+	white-space: nowrap;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 26px;
+	line-height: 30px;
+
+	color: #FFFFFF;
+}
+.edate{
+	position: absolute;
+	width: 97.76px;
+	height: 30px;
+	left: 556px;
+	top: 5px;
+	white-space: nowrap;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 26px;
+	line-height: 30px;
+
+	color: #FFFFFF;
+}
+.etime{
+	position: absolute;
+	width: 222px;
+	height: 30px;
+	left: 365px;
+	top: 5px;
+
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 26px;
+	line-height: 30px;
+
+	color: #FFFFFF;
+}
+.sname{
+	position: absolute;
+	width: 222px;
+	height: 30px;
+	left: 173px;
+	top: 5px;
+
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 26px;
+	line-height: 30px;
+
+	color: #FFFFFF;
+}
+.scode{
+	position: absolute;
+	width: 222px;
+	height: 30px;
+	left: 794px;
+	top: 5px;
+
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 26px;
+	line-height: 30px;
+
+	color: #FFFFFF;
+}
+.s{
+	position: absolute;
+	width: 222px;
+	height: 30px;
+	left: 920px;
+	top: 5px;
+
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 26px;
+	line-height: 30px;
+
+	color: #FFFFFF;
+}
+
+@keyframes fadeIn {
+  0% {opacity:0;}
+  50% {opacity:0;}
+  100% {opacity:1;}
+}
+label[for=back_btn]{
+	position: absolute;
+	width: 110px;
+	height: 28px;
+	left: 150px;
+	top: 50px;
+	background-image: url(./faculty-dashboard/student/add_student/go_back.png);
+	background-repeat: no-repeat;
+	display: block;
+}

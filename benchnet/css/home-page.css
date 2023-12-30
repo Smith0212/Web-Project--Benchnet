@@ -1,0 +1,320 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,800');
+
+.logo{
+position: fixed;
+width: 186px;
+height: 43px;
+left: 120px;
+top: 23px;
+}
+.sticky{
+	position: fixed;
+	background: white;
+	height: 95px;
+	width: 1920px;
+}
+.home{
+position: fixed;
+width: 191px;
+height: 65px;
+left: 485px;
+top: 12px;
+background: #EC602C;
+border-radius: 75px;
+border: none;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: 42px;
+
+color: #FFFFFF;
+white-space: nowrap;
+}
+.details{
+position: fixed;
+width: 229px;
+height: 65px;
+left: 740px;
+top: 12px;
+background: white;	
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 28px;
+line-height: 116%;
+border: 1px solid #494949;
+color: black;
+box-sizing: border-box;
+border-radius: 75px;
+
+}
+
+label[for=profile-image]{
+position: fixed;
+left: 1500px;
+top: 12px;
+height: 80px;
+width: 500px;
+background-image: url(./student-dashboard/s-profile.png);
+background-size: 243px 65px;
+background-repeat: no-repeat;
+}
+.line{
+position: fixed;
+
+width: 1920px;
+height: 0px;
+left: 0px;
+top: 90px;
+
+border: 1px solid #C4C4C4;
+}
+.welcome{
+	position: absolute;
+width: 352px;
+height: 56px;
+left: 142px;
+top: 175px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: 300;
+font-size: 48px;
+line-height: 56px;
+letter-spacing: -0.02em;
+
+color: #000000;
+}
+.name{
+	position: absolute;
+width: 352px;
+height: 56px;
+left: 350px;
+top: 175px;
+
+font-family: Roboto;
+font-style: normal;
+font-size: 48px;
+line-height: 56px;
+letter-spacing: -0.02em;
+
+color: #000000;
+}
+.box{
+
+position: absolute;
+width: 808px;
+height: 608px;
+left: 142px;
+top: 316px;
+
+border: 5px solid #E5E5E5;
+box-sizing: border-box;
+border-radius: 50px;
+
+}
+.text-box{
+position: absolute;
+width: 808px;
+height: 119px;
+left: 142px;
+top: 376px;
+
+background: #404040;
+border-radius: 0px;
+}
+.box-text{
+position: absolute;
+width: 391px;
+height: 75px;
+left: 200px;
+top: -20px;
+white-space: nowrap;
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 64px;
+line-height: 75px;
+
+letter-spacing: 0.01em;
+
+color: #FDFDFD;	
+}
+.subject{
+position: absolute;
+width: 137px;
+height: 33px;
+left: 20px;
+top: 180px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 30px;
+line-height: 24px;
+
+display: flex;
+align-items: center;
+
+color: #B3B3B3;
+}
+.class{
+position: absolute;
+width: 155px;
+height: 33px;
+left: 20px;
+top: 310px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 30px;
+line-height: 24px;
+
+display: flex;
+align-items: center;
+
+color: #B3B3B3;	
+}
+.bench{
+position: absolute;
+width: 169px;
+height: 33px;
+left: 20px;
+top: 450px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 30px;
+line-height: 24px;
+
+display: flex;
+align-items: center;
+
+color: #B3B3B3;	
+}
+.time{
+position: absolute;
+width: 95px;
+height: 33px;
+left: 500px;
+top: 180px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 30px;
+line-height: 24px;
+
+display: flex;
+align-items: center;
+
+color: #B3B3B3;
+}
+
+.svg{
+	position: absolute;
+	width: 720px;
+	height: 730px;
+	left: 1100px;
+	top: 240px;	
+}
+.subject-text{
+position: absolute;
+width: 204px;
+height: 49px;
+left: 20px;
+top: 190px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 64px;
+line-height: 24px;
+
+display: flex;
+align-items: center;
+
+color: #000000;	
+}
+.classno-text{
+position: absolute;
+width: 170px;
+height: 48px;
+left: 20px;
+top: 320px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 64px;
+line-height: 24px;
+
+display: flex;
+align-items: center;
+
+color: #000000;
+}
+.time-text{
+position: absolute;
+width: 239px;
+height: 48px;
+left: 500px;
+top: 190px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 64px;
+line-height: 24px;
+
+display: flex;
+align-items: center;
+
+color: #000000;
+}
+.bench-text{
+position: absolute;
+width: 38.34px;
+height: 43.82px;
+left: 20px;
+top: 460px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 64px;
+line-height: 24px;
+
+display: flex;
+align-items: center;
+
+color: #000000;
+}
+.no-exam{
+position: absolute;
+width: 170px;
+height: 48px;
+left: 170px;
+top: 250px;
+white-space: nowrap;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 64px;
+line-height: 24px;
+animation: fadeIn linear 1s;
+  	
+display: flex;
+align-items: center;
+
+color: #000000;	
+}
+
+@keyframes fadeIn {
+  0% {opacity:0;}
+  50% {opacity:0;}
+  100% {opacity:1;}
+}

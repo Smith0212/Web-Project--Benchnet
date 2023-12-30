@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster:400,800');
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,800');
+
+.frame-back{
+	height: 1080px;
+	width: 1920px;
+	background-color: white;
+	position: fixed;
+	top: 0%;
+	left: 0%;
+	overflow: hidden;
+}
+.frame-main{
+	position: absolute;
+	width: 1920px;
+	height: 955px;
+	left: 0px;
+	top: 122px;
+	overflow: auto;
+	background: #FAFAFA;	
+}
+.logo{
+	position: absolute;	
+	width: 312px;
+	height: 72px;
+	left: 50px;
+	top: 30px;	
+}
+.title{
+	position: fixed;
+	width: 250px;
+	height: 50px;
+	left: 862px;
+	top: 5px;
+	white-space: nowrap;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 1000;
+	font-size: 40px;
+	line-height: 56px;
+
+	color: #000000;
+}
+.logout{
+	position: absolute;
+	width: 246px;
+	height: 61px;
+	left: 1608px;
+	top: 32px;
+	color: #C30B0B;
+	background: transparent;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 21px;
+	border: 2px solid #C30B0B;
+	box-sizing: border-box;
+}
+.illustration{
+	position: absolute;
+	height: 766;
+	width: 540;
+	top: 70px;
+	left: 1288px;
+}
+.f1{
+	position: absolute;
+	width: 80px;
+	height: 35px;
+	left: 120px;
+	top: 175px;
+
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 30px;
+	line-height: 35px;
+
+	color: #8F8F8F;
+}
+.f2{
+	position: absolute;
+	width: 193px;
+	height: 35px;
+	left: 120px;
+	top: 349px;
+
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 30px;
+	line-height: 35px;
+
+	color: #8F8F8F;
+}
+.f3{
+	position: absolute;
+	width: 166px;
+	height: 35px;
+	left: 120px;
+	top: 523px;
+
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 30px;
+	line-height: 35px;
+
+	color: #8F8F8F;
+}
+.f4{
+	position: absolute;
+	width: 201px;
+	height: 35px;
+	left: 120px;
+	top: 697px;
+
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 30px;
+	line-height: 35px;
+
+	color: #8F8F8F;
+}
+.row_one{
+	position: absolute;
+	width: 644px;
+	height: 79px;
+	left: 120px;
+	top: 220px;
+	color: #000000;
+	background: #FFFFFF;
+	box-shadow: 0px 4px 47px rgba(0, 0, 0, 0.1);
+	border-radius: 15px;
+	
+}
+.col_one{
+	position: absolute;
+	margin-top: 19px;
+	margin-left: 24px;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 36px;
+	line-height: 42px;
+
+	color: #000000;
+}
+.row_two{
+	position: absolute;
+	width: 644px;
+	height: 79px;
+	left: 120px;
+	top: 394px;
+	
+	background: #FFFFFF;
+	box-shadow: 0px 4px 47px rgba(0, 0, 0, 0.1);
+	border-radius: 15px;
+}
+.col_two{
+	position: absolute;
+	margin-top: 19px;
+	margin-left: 24px;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 36px;
+	line-height: 42px;
+
+	color: #000000;
+}
+.row_three{
+	position: absolute;
+	width: 644px;
+	height: 79px;
+	left: 120px;
+	top: 568px;
+	
+	background: #FFFFFF;
+	box-shadow: 0px 4px 47px rgba(0, 0, 0, 0.1);
+	border-radius: 15px;
+}
+.col_three{
+	position: absolute;
+	margin-top: 19px;
+	margin-left: 24px;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 36px;
+	line-height: 42px;
+
+	color: #000000;
+}
+.row_four{
+	position: absolute;
+	width: 644px;
+	height: 79px;
+	left: 120px;
+	top: 742px;
+	
+	background: #FFFFFF;
+	box-shadow: 0px 4px 47px rgba(0, 0, 0, 0.1);
+	border-radius: 15px;
+}
+.col_four{
+	position: absolute;
+	margin-top: 19px;
+	margin-left: 24px;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 36px;
+	line-height: 42px;
+
+	color: #000000;
+}
+
+label[for=back_btn]{
+	position: absolute;
+	width: 110px;
+	height: 28px;
+	left: 50px;
+	top: 10px;
+	background-image: url(./faculty-dashboard/student/add_student/go_back.png);
+	background-repeat: no-repeat;
+	display: block;
+}

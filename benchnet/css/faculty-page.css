@@ -1,0 +1,372 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster:400,800');
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,800');
+
+.frame-back{
+	height: 1080px;
+	width: 1920px;
+	background-color: white;
+	position: fixed;
+	top: 0%;
+	left: 0%;
+}
+.frame-main{
+	position: absolute;
+	width: 1501px;
+	height: 955px;
+	left: 419px;
+	top: 122px;
+
+	background: #FAF8F4;
+	border-radius: 20px 0px 0px 0px;	
+}
+.logo{
+	position: absolute;	
+	width: 312px;
+	height: 72px;
+	left: 50px;
+	top: 30px;	
+}
+.profile{
+	position: absolute;
+	width: 172px;
+	height: 172px;
+	left: 125px;
+	top: 205px;
+}
+.name{
+	position: absolute;
+	width: 227px;
+	height: 42px;
+	left: 90px;
+	top: 360px;
+	text-align: center;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 1000;
+	font-size: 36px;
+	line-height: 42px;
+
+	color: #000000;
+}
+.logout{
+	position: absolute;
+	width: 246px;
+	height: 61px;
+	left: 1608px;
+	top: 32px;
+	color: #C30B0B;
+	background: transparent;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 21px;
+	border: 2px solid #C30B0B;
+	box-sizing: border-box;
+}
+
+.active_student{
+	position: absolute;
+	width: 312px;
+	height: 69px;
+	left: 50px;
+	top: 531px;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	line-height: 28px;
+	color: #FFFFFF;
+	border-color: transparent;
+	background: #F08861;
+	border-radius: 12px;
+}
+.student_white{
+	position: absolute;
+	left: 6.36%;
+	right: 91.09%;
+	top: 51.3%;
+	bottom: 46.57%;	
+}
+.inactive_student{
+	position: absolute;
+	width: 312px;
+	height: 69px;
+	left: 50px;
+	top: 531px;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	line-height: 28px;
+	border-color: transparent;
+	border-radius: 12px;
+
+	background: transparent;
+	color: #ACACAC;
+}
+.student_grey{
+	position: absolute;
+	left: 6.3%;
+	right: 91.09%;
+	top: 51.3%;
+	bottom: 46.57%;
+}
+
+.active_seat{
+	position: absolute;
+	width: 312px;
+	height: 69px;
+	left: 50px;
+	top: 625px;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	line-height: 28px;
+
+	color: #FFFFFF;
+	border-color: transparent;
+	background: #F08861;
+	border-radius: 12px;
+}
+.seat_white{
+	position: absolute;
+	left: 4%;
+	right: 93.59%;
+	top: 59.44%;
+	bottom: 37.17%;	
+}
+.inactive_seat{
+	position: absolute;
+	width: 312px;
+	height: 69px;
+	left: 50px;
+	top: 625px;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	line-height: 28px;
+	background: transparent;
+	border-radius: 12px;
+	border-color: transparent;
+	color: #ACACAC;
+}
+.seat_grey{
+	position: absolute;
+	left: 4%;
+	right: 93.59%;
+	top: 59.44%;
+	bottom: 37.17%;	
+}
+.active_exam{
+	position: absolute;
+	width: 312px;
+	height: 69px;
+	left: 50px;
+	top: 719px;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	line-height: 28px;
+
+	color: #FFFFFF;
+	border-color: transparent;
+	background: #F08861;
+	border-radius: 12px;
+}
+.exam_white{
+position: absolute;
+left: 7.5%;
+right: 90.89%;
+top: 68.20%;
+bottom: 28.83%;	
+}
+.inactive_exam{
+	position: absolute;
+	width: 312px;
+	height: 69px;
+	left: 50px;
+	top: 719px;
+	border-radius: 12px;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	line-height: 28px;
+	background: transparent;
+	color: #ACACAC;
+	border-color: transparent;
+}
+.exam_grey{
+	position: absolute;
+	left: 7.5%;
+	right: 90.89%;
+	top: 68.20%;
+	bottom: 28.83%;
+}
+
+label[for=add_student]{
+	position: absolute;
+	width: 300px;
+	height: 300px;
+	left: 200px;
+	top: 125px;
+	background-image: url(./faculty-dashboard/student/add_b.png);
+	overflow: hidden;
+	border-radius: 18px;
+	display: block;	
+}
+label[for=add_student]:hover {
+	width: 390px;
+	height: 390px;
+	left: 163px;
+	top: 92px;
+	background-image: url(./faculty-dashboard/student/add_o.png);
+}
+label[for=edit_student]{
+	position: absolute;
+	width: 300px;
+	height: 300px;
+	left: 600px;
+	top: 125px;
+	background-image: url(./faculty-dashboard/student/edit_b.png);
+	overflow: hidden;
+	border-radius: 18px;
+	display: block;	
+}
+label[for=edit_student]:hover {
+	width: 390px;
+	height: 390px;
+	top: 92px;
+	left: 563px;
+	background-image: url(./faculty-dashboard/student/edit_o.png);
+}
+label[for=view_student]{
+	position: absolute;
+	width: 300px;
+	height: 300px;
+	left: 1000px;
+	top: 125px;
+	background-image: url(./faculty-dashboard/student/view_b.png);
+	overflow: hidden;
+	border-radius: 18px;
+	display: block;	
+}
+label[for=view_student]:hover {
+	width: 390px;
+	height: 390px;
+	top: 92px;
+	left: 963px;
+	background-image: url(./faculty-dashboard/student/view_o.png);
+}
+label[for=add_seat]{
+	position: absolute;
+	width: 300px;
+	height: 300px;
+	left: 200px;
+	top: 125px;
+	background-image: url(./faculty-dashboard/seat/add_b.png);
+	overflow: hidden;
+	border-radius: 18px;
+	display: block;	
+}
+label[for=add_seat]:hover {
+	width: 390px;
+	height: 390px;
+	left: 163px;
+	top: 92px;
+	background-image: url(./faculty-dashboard/seat/add_o.png);
+}
+label[for=edit_seat]{
+	position: absolute;
+	width: 300px;
+	height: 300px;
+	left: 600px;
+	top: 125px;
+	background-image: url(./faculty-dashboard/seat/modify_b.png);
+	overflow: hidden;
+	border-radius: 18px;
+	display: block;	
+}
+label[for=edit_seat]:hover {
+	width: 390px;
+	height: 390px;
+	top: 92px;
+	left: 563px;
+	background-image: url(./faculty-dashboard/seat/modify_o.png);
+}
+label[for=view_seat]{
+	position: absolute;
+	width: 300px;
+	height: 300px;
+	left: 1000px;
+	top: 125px;
+	background-image: url(./faculty-dashboard/seat/view_b.png);
+	overflow: hidden;
+	border-radius: 18px;
+	display: block;	
+}
+label[for=view_seat]:hover {
+	width: 390px;
+	height: 390px;
+	top: 92px;
+	left: 963px;
+	background-image: url(./faculty-dashboard/seat/view_o.png);
+}
+label[for=add_exam]{
+	position: absolute;
+	width: 300px;
+	height: 300px;
+	left: 200px;
+	top: 125px;
+	background-image: url(./faculty-dashboard/exam/add_b.png);
+	overflow: hidden;
+	border-radius: 18px;
+	display: block;	
+}
+label[for=add_exam]:hover {
+	width: 390px;
+	height: 390px;
+	left: 163px;
+	top: 92px;
+	background-image: url(./faculty-dashboard/exam/add_o.png);
+}
+label[for=edit_exam]{
+	position: absolute;
+	width: 300px;
+	height: 300px;
+	left: 600px;
+	top: 125px;
+	background-image: url(./faculty-dashboard/exam/edit_b.png);
+	overflow: hidden;
+	border-radius: 18px;
+	display: block;	
+}
+label[for=edit_exam]:hover {
+	width: 390px;
+	height: 390px;
+	top: 92px;
+	left: 563px;
+	background-image: url(./faculty-dashboard/exam/edit_o.png);
+}
+label[for=view_exam]{
+	position: absolute;
+	width: 300px;
+	height: 300px;
+	left: 1000px;
+	top: 125px;
+	background-image: url(./faculty-dashboard/exam/view_b.png);
+	overflow: hidden;
+	border-radius: 18px;
+	display: block;	
+}
+label[for=view_exam]:hover {
+	width: 390px;
+	height: 390px;
+	top: 92px;
+	left: 963px;
+	background-image: url(./faculty-dashboard/exam/view_o.png);
+}
